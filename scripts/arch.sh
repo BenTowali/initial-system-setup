@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Configure Pacman to the way I like it
 sudo sed -i "/UseSyslog/,/Color/"'s/^#//' /etc/pacman.conf
